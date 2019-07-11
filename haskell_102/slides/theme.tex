@@ -72,7 +72,7 @@
     \hskip .020\paperwidth
 
     \begin{beamercolorbox}[wd=.160\paperwidth,ht=3ex,dp=3ex,center]{icon in head/foot}
-      \pgfimage[mask=#2,interpolate=true,height=14pt]{#1}
+      % \pgfimage[mask=#2,interpolate=true,height=14pt]{#1}
     \end{beamercolorbox}%
 
     \hskip .720\paperwidth
@@ -136,7 +136,7 @@
 }
 
 %\pgfdeclaremask{masklogo}{img/logo}
-\newcommand\defaultlogo{\setfooterlogo{img/google}{}}
+\newcommand\defaultlogo{\setfooterlogo{}{}}
 \defaultlogo
 
 \setbeamersize{text margin left=10pt,text margin right=10pt}
